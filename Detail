@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Details</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <nav>
+      </ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <a class="title">OH My Beauty !</a>
+        <li><a class="cart" href="cart.html">Cart</a></li>
+        <div class="logo">
+          <a href="cart.html">
+        <img src="Cart.png" alt="Your Logo" href="cart.html">
+          </a>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="product-details">
+      <h1>Product Title</h1>
+      <img src="product1.jpg" alt="Product 1">
+      <p>Description of the product goes here.</p>
+      <p>Price: $99.99</p>
+      <button class="buy-now-button">Buy Now</button>
+    </div>
+  </main>
+
+  <footer>
+    <!-- Footer code here -->
+  </footer>
+</body>
+</html>

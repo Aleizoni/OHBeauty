@@ -1,0 +1,295 @@
+/* header */
+.title {
+  font-size: 40PX;
+  color: #fff;
+  margin-right: 500PX;
+  margin-bottom: 3PX;
+}
+
+.cart {
+  font-size: 20PX;
+  color: #fff;
+  margin: 15PX;
+  border: 3px solid #fff;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.search button {
+  padding: 10px 20px;
+  background-color: #ccc;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+
+/* styles.css------------------ */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+main {
+  background-color: #f9f9f9;
+}
+
+.section-one {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  padding: 100px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #none;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  border: 3px solid #fff;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.main-text {
+  font-size: 40px;
+  color: #FFE4B5
+}
+
+h1 {
+  font-size: 50px;
+  color: #FFD700
+}
+
+p {
+  font-size: 25px;
+  color: #fff
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+.section-two {
+  background-color: #fff;
+  font-size: 30PX;
+  color: #000;
+  padding: 10px;
+}
+
+.S2 {
+  font-size: 30PX;
+  color: #000;
+  margin: 15PX;
+  margin-bottom: 3PX;
+}
+
+.section-three {
+  background-color: #fff;
+  color: #fff;
+  padding: 15px;
+}
+
+.section-four {
+  background-color: #fff;
+  font-size: 30PX;
+  color: #000;
+  padding: 40px;
+}
+
+
+
+h1, h2 {
+  margin: 0;
+}
+
+/* product-card */
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-details {
+  padding: 10px;
+  text-align: center;
+}
+
+.product-title {
+  margin: 16px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: normal;
+  color: #000;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.product-description {
+  margin: 8px;
+  font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: normal;
+    color: #757575;
+    margin: 5px 0 0;
+    text-transform: uppercase;
+}
+
+.product-price {
+    margin: 8px;
+    font-size: 15px;
+      letter-spacing: 0.3px;
+      line-height: normal;
+      color: #cc0058;
+      margin: 5px 0 0;
+      text-transform: uppercase;
+    }
+
+/* styles.css */
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-details {
+  padding: 10px;
+  text-align: center;
+}
+
+.product-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.product-description {
+  margin: 5px 0;
+  color: #666;
+}
+
+.division {
+  width: 300px;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.division h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.division p {
+  margin: 10px 0 0;
+  color: #666;
+}
+
+/* styles.css */
+
+.product-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.product-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
